@@ -1,0 +1,136 @@
+# PCL2 文件
+PCL/Musics
+PCL/Pictures
+PCL/LatestLaunch.bat
+PCL/Log[1-5].txt
+.minecraft/PCL.ini
+PCL2 Skin.zip
+
+# 调试文件
+Helps.txt
+backup.xaml
+# Custom.xaml
+
+# Assets 目录
+.minecraft/assets/*
+
+# Libraries 目录（Fabric 及 Optifine 文件除外）
+# 此为 1.19.2 Libraries，若版本更新，需重新导出 Libraries 列表
+# Libraries 列表位于版本 Json 文件中
+# 全部删除会导致无法启动游戏
+.minecraft/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar
+.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar
+.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar
+.minecraft/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar
+.minecraft/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar
+.minecraft/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar
+.minecraft/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar
+.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.0/log4j-slf4j18-impl-2.17.0.jar
+.minecraft/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar
+.minecraft/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar
+.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+.minecraft/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar
+.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar
+.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar
+.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+.minecraft/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+.minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+.minecraft/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+.minecraft/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+.minecraft/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar
+.minecraft/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar
+.minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+.minecraft/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar
+.minecraft/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar
+.minecraft/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar
+.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos.jar
+.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-macos-arm64.jar
+.minecraft/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar
+.minecraft/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar
+.minecraft/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar
+.minecraft/libraries/ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar
+
+# Authlib 文件
+authlib-injector*
+
+# Java 虚拟机崩溃日志
+hs_err_pid*
+
+# Java 虚拟机备份文件
+*.dat_old
+
+# Minecraft 日志
+crash-reports
+logs
+*.log
+
+# Minecraft 冗余文件
+launcher_profiles.json
+
+# 版本冗余文件
+*-natives
+.minecraft/versions/*/*.jar
+saves
+screenshots
+server-resource-packs
+usercache.json
+
+# Fabric 冗余文件
+.fabric
+fabricDefaultResourcePacks.dat
+
+# Mod 冗余文件
+irisUpdateInfo.json
+journeymap

@@ -1,0 +1,63 @@
+name: "Minecraft 启动失败"
+description: "Minecraft 启动时出错或崩溃。"
+title: "[启动 Bug] "
+labels: [Bug, 新反馈]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请检查下列项目，并勾选确认。"
+    options:
+    - label: "我已在 [Issues 页面](https://github.com/StarPixel-Team/PCL-Client/issues?q=is%3Aissue+) 中搜索，确认了这一反馈未被提交过。"
+    - label: "我已重启客户端，并在启动页面右侧确认客户端为最新版。"
+    - label: "我确认 Minecraft 在点击启动按钮后 1 分钟内出错。"
+    - label: "我确认在删除所有非内置 Mod 后仍然出错。"
+      required: true
+- type: dropdown
+  id: "yml-2"
+  attributes:
+    label: "出错类型"
+    description: "除非 PCL2 提示“Minecraft 出现错误”，否则均属于启动时出错。"
+    options:
+    - 启动时出错
+    - Minecraft 崩溃
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: "具体表现"
+    description: "详细描述 Bug 的表现。"
+    value: |
+      （示例）
+      在添加一个 Mod 后，启动客户端，在加载时崩溃。
+      崩溃后，PCL2 提示：【Fabric 提供了以下信息：XXXXXXX】
+      Mod 信息：
+      - 名称   AppleSkin
+      - Mc 版本   1.19.2
+      - Mod 版本   11.45.14
+      - Mod 加载器   Forge
+      - 开发商   XX 公司
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: "复现步骤"
+    description: "如何才能触发这个 Bug？"
+    value: |
+      （示例）
+      1. 加载如上所述的 Mod；
+      2. 启动客户端；
+      3. 出现错误。
+  validations:
+    required: true
+- type: textarea
+  id: "yml-5"
+  attributes:
+    label: "附件"
+    description: "上传 PCL 文件夹下的 Log[1-5].txt。"
+    placeholder: "先点击这个文本框，然后再将文件直接拖拽到文本框中上传。若无法上传，请在自己 GitHub 用户下创建储存库，然后上传。"
+  validations:
+    required: true

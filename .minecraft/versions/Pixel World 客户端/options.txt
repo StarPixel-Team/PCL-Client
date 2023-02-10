@@ -1,0 +1,6 @@
+
+
+lang:zh_cn
+forceUnicodeFont:true
+fullscreen:false
+resourcePacks:["vanilla","file/PCL2 Skin.zip"]

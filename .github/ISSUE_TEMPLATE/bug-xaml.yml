@@ -1,0 +1,44 @@
+name: "主页或帮助文档出错"
+description: "主页或帮助文档加载、显示时出错。"
+title: "[Xaml Bug] "
+labels: [Bug, 新反馈]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请检查下列项目，并勾选确认。"
+    options:
+    - label: "我已在 [Issues 页面](https://github.com/StarPixel-Team/PCL-Client/issues?q=is%3Aissue+) 中搜索，确认了这一反馈未被提交过。"
+    - label: "我已重启客户端，并在启动页面右侧确认客户端为最新版。"
+    - label: "我确认没有修改过任何客户端文件。"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: "Bug 表现"
+    description: "详细描述 Bug 的表现。"
+    value: |
+      （示例）
+      加载帮助文档时出错：……
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: "重现步骤"
+    description: "详细描述如何重现该 Bug。"
+    value: |
+      （示例）
+      1. 点击“更多”；
+      2. 出现错误。
+  validations:
+    required: true
+- type: textarea
+  id: "yml-4"
+  attributes:
+    label: "日志与附件"
+    description: "上传 PCL 目录下的 Log[1-5].txt 与附件。"
+    placeholder: "先点击这个文本框，然后再将文件直接拖拽到文本框中上传。若无法上传，请在自己 GitHub 用户下创建储存库，然后上传。"
+  validations:
+    required: true
