@@ -1,8 +1,6 @@
-<!--<local:MyHint Margin="0,0,0,5" Text="该页面还需要根据规范重新整理格式，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />-->
-
 <local:MyCard Title="关于客户端" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您目前使用的客户端版本为 1.2.0。" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您目前使用的客户端版本为 1.2.1。" />
         <local:MyButton Margin="0,0,0,0" Width="100" Height="35" Text="检查更新" EventType="打开文件" EventData="{path}Update.exe" HorizontalAlignment="Left" ColorType="Highlight" />
     </StackPanel>
 </local:MyCard>
@@ -20,17 +18,18 @@
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                ColorType="Red" Text="服务器 IP" EventType="复制文本" EventData="starpixel.cc" ToolTip="注意：服务器完工前暂时停服。——Fantom" />
+                Text="服务器 IP" EventType="复制文本" EventData="www.pixelrealms.top" />
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                Text="启动客户端" EventType="启动游戏" EventData="Pixel World 客户端" ToolTip="推荐使用微软或离线登录" />
+                Text="反馈 Bug" EventType="打开网页" EventData="https://github.com/StarPixel-Team/PCL-Client/issues" />
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                ColorType="Red" Text="加入服务器" EventType="启动游戏" EventData="Pixel World 客户端|starpixel.cc" ToolTip="注意：服务器完工前暂时停服。——Fantom" />
+                ColorType="Highlight" Text="加入服务器" EventType="启动游戏" EventData="Pixel World 客户端|www.pixelrealms.top" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="客户端 Mod" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
+        <local:MyListItem Margin="0,0,0,4" EventType="打开帮助" EventData="PixelWorld/添加 Mod.json" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您可以在版本设置中查看 Mod 列表，下面列举了几个 Mod 的用途。" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="ReplayMod：提供他人违规或自己未违规的有效证据，切勿禁用。" />
     </StackPanel>
