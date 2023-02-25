@@ -1,0 +1,36 @@
+name: "综合 Bug"
+description: "没有细分选项的 Bug 反馈。"
+title: "[Bug] "
+labels: [Bug, 新反馈]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "请检查下列项目，并勾选确认。"
+    options:
+    - label: "我已在 [Issues 页面](https://github.com/StarPixel-Team/PCL-Client/issues?q=is%3Aissue+) 中搜索，确认了这一反馈未被提交过。"
+    - label: "我已在启动页面右侧点击“检查更新”，确认客户端为最新版。"
+    - label: "我确认没有修改过任何客户端文件。"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: "Bug 表现"
+    description: "详细描述 Bug 的表现。"
+    value: |
+      （示例）
+      启动游戏后贴图错误：无法加载 XXX 生物的贴图
+  validations:
+    required: true
+- type: textarea
+  id: "yml-3"
+  attributes:
+    label: "重现步骤"
+    description: "详细描述如何重现该 Bug。"
+    value: |
+      （示例）
+      1. 启动游戏；
+      2. 找到 XXX 生物。
+  validations:
+    required: true
