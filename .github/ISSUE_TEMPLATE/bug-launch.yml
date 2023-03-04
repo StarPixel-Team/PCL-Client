@@ -1,7 +1,7 @@
 name: "Minecraft 启动失败"
 description: "Minecraft 启动时出错或崩溃。"
-title: "[启动 Bug] "
-labels: [Bug, 新反馈]
+title: "[Launch] "
+labels: [· Bug, 新反馈]
 body:
 - type: checkboxes
   id: "yml-1"
@@ -10,8 +10,7 @@ body:
     description: "请检查下列项目，并勾选确认。"
     options:
     - label: "我已在 [Issues 页面](https://github.com/StarPixel-Team/PCL-Client/issues?q=is%3Aissue+) 中搜索，确认了这一反馈未被提交过。"
-    - label: "我已重启客户端，并在启动页面右侧确认客户端为最新版。"
-    - label: "我确认 Minecraft 在点击启动按钮后 1 分钟内出错。"
+    - label: "我已在启动页面右侧点击“检查更新”，确认客户端为最新版。"
     - label: "我确认在删除所有非内置 Mod 后仍然出错。"
       required: true
 - type: dropdown
