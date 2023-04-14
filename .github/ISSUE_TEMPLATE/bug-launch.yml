@@ -1,6 +1,5 @@
 name: "Minecraft 启动失败"
 description: "Minecraft 启动时出错或崩溃。"
-title: "[Launch] "
 labels: [· Bug, 新反馈]
 body:
 - type: checkboxes
@@ -34,8 +33,8 @@ body:
       崩溃后，PCL2 提示：【Fabric 提供了以下信息：XXXXXXX】
       Mod 信息：
       - 名称   AppleSkin
-      - Mc 版本   1.19.2
-      - Mod 版本   11.45.14
+      - Mc 版本   1.16.5
+      - Mod 版本   12.34.56
       - Mod 加载器   Forge
       - 开发商   XX 公司
   validations:

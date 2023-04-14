@@ -1,6 +1,5 @@
 name: "优化建议"
 description: "对已有内容的小幅度更改。"
-title: "[优化] "
 labels: [· 优化, 新反馈]
 body:
 - type: checkboxes

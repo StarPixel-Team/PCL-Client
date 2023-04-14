@@ -1,6 +1,5 @@
 name: "主页或帮助文档出错"
 description: "主页或帮助文档加载、显示时出错。"
-title: "[Xaml] "
 labels: [· Bug, 新反馈]
 body:
 - type: checkboxes

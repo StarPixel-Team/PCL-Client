@@ -1,6 +1,5 @@
 name: "新内容提案"
 description: "对已有内容的大幅度更改，或添加一个新内容。"
-title: "[新内容] "
 labels: [· 新内容, 新反馈]
 body:
 - type: checkboxes

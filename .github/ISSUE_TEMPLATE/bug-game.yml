@@ -1,6 +1,5 @@
 name: "游戏中问题"
 description: "无法加入服务器，或游戏中渲染问题。"
-title: "[Bug] "
 labels: [· Bug, 新反馈]
 body:
 - type: checkboxes
