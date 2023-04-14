@@ -1,5 +1,5 @@
-name: "综合 Bug"
-description: "没有细分选项的 Bug 反馈。"
+name: "游戏中问题"
+description: "无法加入服务器，或游戏中渲染问题。"
 title: "[Bug] "
 labels: [· Bug, 新反馈]
 body:
@@ -10,6 +10,7 @@ body:
     description: "请检查下列项目，并勾选确认。"
     options:
     - label: "我已在 [Issues 页面](https://github.com/StarPixel-Team/PCL-Client/issues?q=is%3Aissue+) 中搜索，确认了这一反馈未被提交过。"
+    - label: "我已使用其它启动器，其它启动器没有出现问题。"
     - label: "我已在启动页面右侧点击“检查更新”，确认客户端为最新版。"
     - label: "我确认没有修改过任何客户端文件。"
       required: true
@@ -20,7 +21,7 @@ body:
     description: "详细描述 Bug 的表现。"
     value: |
       （示例）
-      点击 XXX 之后弹出弹窗报错：XXXXX。
+      启动游戏后贴图错误：无法加载 XXX 生物的贴图
   validations:
     required: true
 - type: textarea
@@ -30,7 +31,7 @@ body:
     description: "详细描述如何重现该 Bug。"
     value: |
       （示例）
-      1. 点击 XXX；
-      2. 向下滚，点击 XXX。
+      1. 启动游戏；
+      2. 找到 XXX 生物。
   validations:
     required: true
