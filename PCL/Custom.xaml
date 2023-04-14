@@ -1,6 +1,6 @@
 <local:MyCard Title="关于客户端" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您目前使用的客户端版本为 1.2.1。" />
+		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您目前使用的客户端版本为 1.2.2。" />
         <local:MyButton Margin="0,0,0,0" Width="100" Height="35" Text="检查更新" EventType="打开文件" EventData="{path}Update.exe" HorizontalAlignment="Left" ColorType="Highlight" />
     </StackPanel>
 </local:MyCard>
@@ -29,9 +29,7 @@
 
 <local:MyCard Title="客户端 Mod" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <local:MyListItem Margin="0,0,0,4" EventType="打开帮助" EventData="PixelWorld/添加 Mod.json" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您可以在版本设置中查看 Mod 列表，下面列举了几个 Mod 的用途。" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="ReplayMod：提供他人违规或自己未违规的有效证据，切勿禁用。" />
+        <local:MyListItem EventType="打开帮助" EventData="PixelWorld/添加 Mod.json" />
     </StackPanel>
 </local:MyCard>
 

@@ -5,13 +5,3 @@
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="若不是最新，您可以直接安装更新。" />
     </StackPanel>
 </local:MyCard>
-<!--
-<local:MyCard Title="卸载客户端" CanSwap="True" IsSwaped="True" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="如果您的客户端出现问题，需要重装或卸载，下有 2 种卸载方式：" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="1. 按下 Windows 键，搜索 Pixel World，找到“卸载 Pixel World PCL2 美化客户端”，然后运行。" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="2. 按下 Win+R，输入 control，点击确定，打开“卸载程序”，找到“Pixel World PCL2 美化客户端”并卸载。" />
-    </StackPanel>
-</local:MyCard>
--->
-<local:MyHint Margin="0,0,0,15" Text="作者：Pixel World 管理团队" IsWarn="False" />

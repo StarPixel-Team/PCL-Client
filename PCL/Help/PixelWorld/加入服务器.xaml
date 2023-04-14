@@ -3,10 +3,9 @@
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="首先，请点击下方按钮启动客户端，然后单击“多人游戏”。" />
         <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="启动客户端" EventType="启动游戏" EventData="Pixel World 客户端" ColorType="Highlight" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="此时，您应该可以看到 Pixel World 服务器了，双击加入即可。" />
-        <Image Height="300" HorizontalAlignment="Left" Source="{path}PCL\Resources\Help\Images\ModNetPage.png" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="如果您没有看到服务器，请按照以下操作重新添加服务器：" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="单击“添加服务器”按钮，然后在“服务器地址”栏填写服务器 IP，并点击确定。" />
-        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制 IP" EventType="复制文本" EventData="starpixel.cc" ColorType="Highlight" />
+        <local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制 IP" EventType="复制文本" EventData="www.pixelrealms.top" ColorType="Highlight" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="如果您无法加入服务器，服务器 IP 很可能被更改，请加入 QQ 群了解更多信息。您也可以对照报错在下方找到解决方案。" />
     </StackPanel>
 </local:MyCard>
@@ -64,7 +63,7 @@
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
 				   Grid.Row="4" Grid.Column="1" Text="客户端版本过低。" />
 		<TextBlock Margin="0,0,0,6" LineHeight="17"
-				   Grid.Row="4" Grid.Column="2" Text="检查客户端版本是否在 1.18 及以上。" />
+				   Grid.Row="4" Grid.Column="2" Text="检查客户端版本是否在 1.19 及以上。" />
 
 		<TextBlock Margin="0,0,0,6" LineHeight="17" FontWeight="Bold"
 				   Grid.Row="5" Grid.Column="0" Text="You are banned from this server" />
@@ -117,4 +116,3 @@
 		<local:MyButton Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="复制 QQ 号" EventType="复制文本" EventData="2934348842" />
 	</StackPanel>
 </local:MyCard>
-<local:MyHint Margin="0,0,0,15" Text="作者：Pixel World 管理团队" IsWarn="False" />

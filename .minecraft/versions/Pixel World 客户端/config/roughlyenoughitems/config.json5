@@ -151,7 +151,7 @@
 		"isFocusModeZoomed": false
 	},
 	"functionality": {
-		"inputMethod": null,
+		"inputMethod": "rei:default",
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
 		// Declares whether mob effects should be on the left side instead of the right side.

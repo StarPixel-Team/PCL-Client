@@ -20,5 +20,13 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				item = true
+				area_effect_cloud = true
+				arrow = true
+				salmon = true
+				firework_rocket = true
+				armor_stand = true
 				glow_item_frame = false
+				chest_minecart = true
+				player = true
 
