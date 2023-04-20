@@ -1,3 +1,4 @@
+
 version:3120
 autoJump:true
 autoSuggestions:true
@@ -37,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods"]
+resourcePacks:["vanilla","Fabric Mods","file/PCL2 Skin.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn

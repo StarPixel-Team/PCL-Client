@@ -20,13 +20,29 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				item = true
-				area_effect_cloud = true
+				chicken = true
 				arrow = true
-				salmon = true
-				firework_rocket = true
-				armor_stand = true
-				glow_item_frame = false
+				cow = true
 				chest_minecart = true
+				pig = true
+				slime = true
+				iron_golem = true
+				skeleton = true
+				area_effect_cloud = true
+				bat = true
+				firework_rocket = true
+				zombie = true
+				armor_stand = true
+				sheep = true
 				player = true
+				item = true
+				villager = true
+				salmon = true
+				vex = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
 
