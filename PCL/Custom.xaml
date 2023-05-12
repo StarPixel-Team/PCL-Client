@@ -1,10 +1,11 @@
+<!--
 <local:MyCard Title="关于客户端" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 		<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您目前使用的客户端版本为 1.2.2。" />
         <local:MyButton Margin="0,0,0,0" Width="100" Height="35" Text="检查更新" EventType="打开文件" EventData="{path}Update.exe" HorizontalAlignment="Left" ColorType="Highlight" />
     </StackPanel>
 </local:MyCard>
-
+-->
 <local:MyCard Title="加入我们" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
