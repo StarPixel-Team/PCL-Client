@@ -6,6 +6,16 @@
     </StackPanel>
 </local:MyCard>
 -->
+
+<local:MyCard Title="最新病毒警告！" CanSwap="True" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+    <local:MyHint Margin="0,0,0,5" Text="大量 MC Mod、整合包、服务器插件遭到蠕虫病毒投放，请保持警惕！" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="您可以点击下方按钮了解更多信息。" />
+        <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                ColorType="Highlight" Text="详细信息" EventType="打开网页" EventData="https://www.bilibili.com/read/cv24201292" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="加入我们" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">

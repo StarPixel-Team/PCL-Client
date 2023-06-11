@@ -1,7 +1,0 @@
-<local:MyHint Margin="0,0,0,15" Text="该帮助页面还需要根据规范重新整理格式，优化排版与文案。如果您感兴趣也可以来帮帮忙！" IsWarn="False" />
-<local:MyCard Title="更新客户端" CanSwap="True" Margin="0,0,0,15">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="首先，在启动页面的右侧点击“检查更新”，确认客户端是否为最新版。" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="若不是最新，您可以直接安装更新。" />
-    </StackPanel>
-</local:MyCard>
