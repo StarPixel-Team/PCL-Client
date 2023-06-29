@@ -13,6 +13,7 @@ git pull https://github.com/StarPixel-Team/PCL-Client.git
 ```
 git clone https://github.com/StarPixel-Team/PCL-Client.git
 ```
+请注意，应当使用 `Plain Craft Launcher 2.exe` 启动客户端，而**不是** `PCL.exe`。
 
 ## 如何帮助完善客户端
 1. 安装 Visual Studio Code。[点此](https://code.visualstudio.com)下载 VS Code，然后运行安装包。
