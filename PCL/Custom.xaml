@@ -22,9 +22,9 @@
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                 ColorType="Highlight" Text="服务器群号" EventType="复制文本" EventData="569421891" ToolTip="复制 QQ 群号" />
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                Text="联系服主" EventType="复制文本" EventData="3091193455" ToolTip="复制服主 QQ 号" />
+                Text="联系服主" EventType="打开网页" EventData="tencent://message/?uin=3091193455&Site=&Menu=yes" ToolTip="添加服主 QQ 好友" />
             <local:MyButton Margin="5,3,0,10" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                Text="客户端作者" EventType="复制文本" EventData="youzi5201086@163.com" ToolTip="复制客户端作者邮箱" />
+                Text="客户端作者" EventType="打开网页" EventData="mailto:youzi5201086@163.com" ToolTip="联系客户端作者邮箱" />
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
