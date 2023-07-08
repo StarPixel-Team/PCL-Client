@@ -113,13 +113,14 @@ hs_err_pid*
 # Java 虚拟机备份文件
 *.dat_old
 
-#minecraft 日志
+# Minecraft 日志
 crash-reports
 logs
 *.log
 
-#minecraft 冗余文件
+# Minecraft 冗余文件
 launcher_profiles.json
+.minecraft
 
 # 版本冗余文件
 *-natives
