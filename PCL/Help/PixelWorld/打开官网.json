@@ -1,7 +1,9 @@
 {
     "Title": "访问官网",
     "Description": "打开服务器官网链接",
-    "Types": ["Pixel World"],
+    "Types": [
+        "Pixel World"
+    ],
     "IsEvent": true,
     "EventType": "弹出窗口",
     "EventData": "提示|官网仍在制作中，因此暂不能访问。\n您可以在 GitHub 储存库 StarPixel-Team/Website 查看官网制作进度。"
