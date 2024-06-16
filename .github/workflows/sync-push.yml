@@ -1,4 +1,4 @@
-name: Copy Changes from Help Directory to Generated Branch
+name: Generate content
 
 on:
   push
@@ -7,12 +7,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: Get branch name
-        run: |
-          BRANCH_NAME=${GITHUB_REF#refs/heads/}
-          echo "Branch name: $BRANCH_NAME"
-          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-
       - name: Checkout base branch
         uses: actions/checkout@v2
         with:

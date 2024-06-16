@@ -6,5 +6,5 @@
     ],
     "IsEvent": true,
     "EventType": "弹出窗口",
-    "EventData": "提示|官网仍在制作中，因此暂不能访问。\n您可以在 GitHub 储存库 StarPixel-Team/Website 查看官网制作进度。"
+    "EventData": "提示|官网仍在制作中，因此暂不能访问。\n您可以在 https://github.com/StarPixel-Team/Website 查看官网制作进度。"
 }
