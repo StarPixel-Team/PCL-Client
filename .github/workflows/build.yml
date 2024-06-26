@@ -31,7 +31,7 @@ jobs:
         with:
           ref: generated
           path: generated-branch
-          repository: StarPixel-Team/PCL-Client # 防止 Fork 中没有 generated 分支
+          repository: StarPixel-Team/PCL-Client # 防止 Fork 中没有 generated 分支，导致签出失败
           fetch-depth: 0
 
       - name: Build python script
