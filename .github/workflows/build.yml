@@ -37,7 +37,9 @@ jobs:
       - name: Build python script
         run: |
           pyinstaller base-branch/launcher/main.spec
-          mv dist/main/main.exe "generated-branch/Pixel World 客户端.exe"
+          ls -l dist
+          ls -l dist/main
+          mv dist/main "generated-branch/Pixel World 客户端.exe"
 
       - name: Copy changes
         run: |
