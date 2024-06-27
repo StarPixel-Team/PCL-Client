@@ -7,6 +7,8 @@
 </local:MyCard>
 -->
 
+<local:MyHint Margin="0,0,0,10" Text="环境提示：在启动客户端时，请使用 &quot;Pixel World 客户端.exe&quot;，而不是 PCL.exe！" IsWarn="True" />
+
 <local:MyCard Title="加入我们" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -38,7 +40,7 @@
 <local:MyCard Title="服务器介绍" IsSwaped="True" CanSwap="True" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="欢迎来到 Pixel World！" />
-        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="服务器有粘液科技、太空星系、天灾系统、更多附魔、血夜等趣味插件，还有超过原版 11 种地形以及地牢遗迹等你探索哦！" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="服务器有粘液科技、太空星系、天灾系统、更多附魔、血夜等趣味插件，还有超过原版 11 种地形以及地牢遗迹等你探索！" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" 
             Text="因服务器重新建设，目前仅有基础的主城建筑完工，后续会陆续完善各世界、各不同功能的建筑。同时，我们需要您来一起建设这个世界，一个大家的家。" />
         <TextBlock Margin="0,0,0,4" TextWrapping="Wrap"
