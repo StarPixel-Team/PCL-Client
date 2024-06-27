@@ -37,18 +37,16 @@ jobs:
       - name: Build python script
         run: |
           pyinstaller base-branch/launcher/main.spec
-          ls -l dist
-          ls -l dist/main
           mv dist/main "generated-branch/Pixel World 客户端.exe"
 
-      - name: Copy changes
+      - name: Copy changes from base branch
         run: |
           rm -r generated-branch/PCL/*
           cp -r base-branch/PCL/* generated-branch/PCL/
 
       - name: Get latest PCL
         run: |
-          wget -O pcl.zip https://github.com/Hex-Dragon/PCL2/blob/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip
+          wget -O pcl.zip https://github.com/Hex-Dragon/PCL2/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip
           unzip -o pcl.zip -d tmp_pcl
           cp "tmp_pcl/Plain Craft Launcher 2.exe" generated-branch/PCL/PCL.exe
           rm -r tmp_pcl
