@@ -7,7 +7,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -58,11 +57,12 @@ jobs:
           git config --local user.email "starpixelteam@163.com"
           git config --local user.name "GitHub Actions"
           git add .
-          git commit -m "Build game file\n${{ github.sha }}" || true
+          git commit -m "Build game file" || true
 
       - name: Push changes to generated branch
         uses: ad-m/github-push-action@master
         with:
+          repository: ${{ github.repository }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: generated
           directory: generated-branch
