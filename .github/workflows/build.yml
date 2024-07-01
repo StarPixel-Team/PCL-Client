@@ -79,7 +79,7 @@ jobs:
 
       - name: Copy changes
         run: |
-          copy base-branch/dist/main.exe "generated-branch/Pixel World 客户端.exe"
+          copy dist/main.exe "generated-branch/Pixel World 客户端.exe"
 
       - name: Commit changes
         run: |
