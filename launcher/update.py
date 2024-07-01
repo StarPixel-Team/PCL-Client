@@ -25,7 +25,7 @@ class Update:
     """是否失败。"""
 
     def __init__(self) -> None:
-        self.repo = git.Repo(Path(__file__).parent)
+        self.repo = git.Repo(Path().cwd())
         if len(self.repo.remotes) == 0:
             self.origin = self.repo.create_remote("origin", UPDATE_URL)
         else:
