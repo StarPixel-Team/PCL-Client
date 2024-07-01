@@ -1,4 +1,10 @@
+# Python 文件
+__pycache__
+*.pyc
+
 # PCL 文件
+Plain Craft Launcher 2.exe
+PCL.exe
 PCL/LatestLaunch.bat
 PCL/Log[1-5].txt
 PCL/Plain Craft Launcher 2.exe
@@ -6,15 +12,12 @@ PCL/Plain Craft Launcher 2.exe
 PCL2 Skin.zip
 
 # 调试文件
-Helps.txt
-backup.xaml
 agreed.rec
-Apply.bat
 
 # Assets 目录
 .minecraft/assets/*
 
-# Libraries 目录（Fabric 及 Optifine 文件除外）
+# Libraries 目录（Fabric 及 OptiFine 文件除外）
 # 此为 1.19.2 Libraries，若版本更新，需重新导出 Libraries 列表
 # Libraries 列表位于版本 Json 文件中
 # 全部删除会导致无法启动游戏
@@ -134,3 +137,4 @@ fabricDefaultResourcePacks.dat
 # Mod 冗余文件
 irisUpdateInfo.json
 journeymap
+replay_recordings

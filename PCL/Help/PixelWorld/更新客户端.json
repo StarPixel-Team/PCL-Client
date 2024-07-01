@@ -1,7 +1,9 @@
 {
     "Title": "更新客户端",
     "Description": "快速更新客户端的方法",
-    "Types": ["Pixel World"],
+    "Types": [
+        "Pixel World"
+    ],
     "IsEvent": true,
     "EventType": "弹出窗口",
     "EventData": "更新客户端|PCL 客户端会在有新版本时自动更新，无需手动处理。"
